@@ -39,7 +39,7 @@ const Header = ({ isPlaying, setIsPlaying, currentView, onNavigate, savedCount, 
           {/* Logo Brand */}
           <button onClick={() => go('home')} className="flex items-center gap-2.5 sm:gap-3.5 group text-right shrink-0">
             <div className="relative p-0.5 rounded-full bg-white/5 border border-white/15 group-hover:border-[#0082A6] transition-colors shadow-lg">
-              <img src="/logo.png" alt="Jfara FM" className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-contain transform group-hover:scale-105 transition-transform" />
+              <img src="./logo.png" alt="Jfara FM" className="w-8 h-8 sm:w-9 sm:h-9 rounded-full object-contain transform group-hover:scale-105 transition-transform" />
             </div>
             <div className="flex flex-col leading-none">
               <span className="font-tajawal font-black text-sm sm:text-[16px] text-white tracking-tight group-hover:text-[#0082A6] transition-colors">

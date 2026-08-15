@@ -25,7 +25,7 @@ const Footer = ({ isPlaying, setIsPlaying, volume, setVolume, currentShowTitle, 
           <div className="md:col-span-5 space-y-4 font-poppins">
             <div className="flex items-center gap-3">
               <div className="p-0.5 rounded-full bg-white/5 border border-white/15">
-                <img src="/logo.png" alt="Jfara FM" className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-contain" />
+                <img src="./logo.png" alt="Jfara FM" className="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-contain" />
               </div>
               <div className="flex flex-col leading-none">
                 <p className="font-tajawal font-black text-base text-white">إذاعة جفارة أف أم</p>
@@ -113,7 +113,7 @@ const Footer = ({ isPlaying, setIsPlaying, volume, setVolume, currentShowTitle, 
           {/* CENTER RIGHT: Station / Podcast Branding Info */}
           <div className="flex items-center gap-2 sm:gap-3 px-2 sm:px-4 py-1 sm:py-2 font-tajawal min-w-0 flex-1">
             <img 
-              src={activePodcast ? activePodcast.cover : '/logo.png'} 
+              src={activePodcast ? activePodcast.cover : './logo.png'} 
               alt="Jfara FM" 
               className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg object-cover bg-white/5 p-0.5 border border-white/10 shrink-0" 
             />

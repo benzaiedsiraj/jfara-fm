@@ -13,7 +13,7 @@ const weatherCities = [
     uv: '8 عالي',
     sea: 'هادئ',
     landmark: 'صومعة بنقردان وأبراج البث الإذاعي',
-    photo: '/real_news/benguerdane_city.jpg',
+    photo: './real_news/benguerdane_city.jpg',
     bgGradient: 'from-[#0082A6]/30 to-amber-500/20'
   },
   {
@@ -26,7 +26,7 @@ const weatherCities = [
     uv: '9 عالي جداً',
     sea: 'داخل الجهة',
     landmark: 'نصب المقاومين والشهداء بمدنين',
-    photo: '/real_news/medenine_monument.jpg',
+    photo: './real_news/medenine_monument.jpg',
     bgGradient: 'from-amber-600/30 to-red-900/20'
   },
   {
@@ -39,7 +39,7 @@ const weatherCities = [
     uv: '8 عالي',
     sea: 'قليل الاضطراب',
     landmark: 'كورنيش وشواطئ جرجيس الساحلية',
-    photo: '/real_news/djerba_coastal.jpg',
+    photo: './real_news/djerba_coastal.jpg',
     bgGradient: 'from-[#0082A6]/30 to-cyan-600/20'
   },
   {
@@ -52,7 +52,7 @@ const weatherCities = [
     uv: '8 عالي',
     sea: 'قليل الاضطراب',
     landmark: 'المعمار التقليدي والشريط الساحلي بجربة',
-    photo: '/real_news/djerba_coastal.jpg',
+    photo: './real_news/djerba_coastal.jpg',
     bgGradient: 'from-blue-600/30 to-teal-500/20'
   },
   {
@@ -65,7 +65,7 @@ const weatherCities = [
     uv: '9 عالي',
     sea: 'جبلي',
     landmark: 'معالم وصوامع بني خداش التراثية',
-    photo: '/real_news/kairouan_mosque.png',
+    photo: './real_news/kairouan_mosque.png',
     bgGradient: 'from-amber-700/30 to-yellow-600/20'
   },
   {
@@ -78,7 +78,7 @@ const weatherCities = [
     uv: '9 عالي جداً',
     sea: 'صحراوي',
     landmark: 'قصور تطاوين الجبلية والصحراوية',
-    photo: '/real_news/environment_djerba.png',
+    photo: './real_news/environment_djerba.png',
     bgGradient: 'from-orange-600/30 to-amber-500/20'
   }
 ];

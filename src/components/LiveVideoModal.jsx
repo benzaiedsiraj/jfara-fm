@@ -44,7 +44,6 @@ const LiveVideoModal = ({ isOpen, onClose, currentShowTitle, lang = 'ar' }) => {
           </div>
 
           <div className="flex items-center gap-3">
-            <LiveClock size="normal" lang={lang} />
             <button
               onClick={onClose}
               className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all active:scale-95"
@@ -60,7 +59,7 @@ const LiveVideoModal = ({ isOpen, onClose, currentShowTitle, lang = 'ar' }) => {
           
           {/* Live Studio Camera Feed Background */}
           <img
-            src="/real_news/studio_banner.png"
+            src="./real_news/studio_banner.png"
             alt="Jfara FM Live Studio Camera Feed"
             className="w-full h-full object-cover opacity-90 group-hover:scale-102 transition-transform duration-700"
           />
@@ -138,7 +137,7 @@ const LiveVideoModal = ({ isOpen, onClose, currentShowTitle, lang = 'ar' }) => {
         {/* Footer Info inside Modal */}
         <div className="bg-[#07080a] p-4 sm:p-5 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-tajawal">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Jfara FM" className="w-8 h-8 rounded-full object-contain bg-white/10 p-0.5" />
+            <img src="./logo.png" alt="Jfara FM" className="w-8 h-8 rounded-full object-contain bg-white/10 p-0.5" />
             <div className="flex flex-col leading-tight">
               <span className="font-bold text-white text-sm">إذاعة جفارة أف أم (البث المباشر)</span>
               <span className="text-slate-400 text-[11px]">يمكنك الاستماع والمشاهدة الحية لاستوديو البث ببنقردان</span>

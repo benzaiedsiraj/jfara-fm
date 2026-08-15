@@ -18,7 +18,7 @@ const TrackContent = ({ keyPrefix }) => (
           {headline}
         </span>
         <img
-          src="/logo.png"
+          src="./logo.png"
           alt="Jfara FM"
           className="w-4 h-4 sm:w-5 sm:h-5 rounded-full object-contain bg-white/20 p-0.5 border border-white/40 flex-shrink-0 mx-2"
         />

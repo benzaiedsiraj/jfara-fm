@@ -8,18 +8,18 @@ import { realNewsArticles } from '../data/newsData';
 import PodcastCard from './PodcastCard';
 import { translations } from '../data/translations';
 
-/* ─── Real Photography Assets ─── */
+/* ─── Real Photography Assets (Relative Paths) ─── */
 const realPhotos = {
-  studio: "/real_news/studio_banner.png",
-  electricity: "/real_news/electricity.png",
-  earthquake: "/real_news/earthquake.png",
-  ashweya: "/real_news/ashweya_takwa.png",
-  nutrition: "/real_news/nutrition.png",
-  djerbaEnv: "/real_news/environment_djerba.png",
-  president: "/real_news/president_meeting.png",
-  psg: "/real_news/psg_supercup.png",
-  khalliBasmatak: "/real_news/khalli_basmatak_moataz.png",
-  ahlKhayl: "/real_news/ahl_khayl_abdelsalam.png"
+  studio: "./real_news/studio_banner.png",
+  electricity: "./real_news/electricity.png",
+  earthquake: "./real_news/earthquake.png",
+  ashweya: "./real_news/ashweya_takwa.png",
+  nutrition: "./real_news/nutrition.png",
+  djerbaEnv: "./real_news/environment_djerba.png",
+  president: "./real_news/president_meeting.png",
+  psg: "./real_news/psg_supercup.png",
+  khalliBasmatak: "./real_news/khalli_basmatak_moataz.png",
+  ahlKhayl: "./real_news/ahl_khayl_abdelsalam.png"
 };
 
 /* ─── Instagram News Stories (Instants) Data ─── */
